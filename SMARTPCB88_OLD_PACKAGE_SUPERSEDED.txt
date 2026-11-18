@@ -1,0 +1,3 @@
+All previous PCB1 fabrication archives (initial, RF_FIX, COMPACT_100x85,
+and J8_SWAP) are superseded by SMARTPCB88_PCB1_POWEROPT_2026-11-16.zip.
+Use the POWEROPT archive exclusively. Do not mix layers or drill files.

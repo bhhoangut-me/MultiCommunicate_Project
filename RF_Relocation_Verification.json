@@ -1,0 +1,110 @@
+{
+  "date": "2026-11-16",
+  "board": "PCB1.PcbDoc",
+  "J6": {
+    "before_mils": [
+      2860,
+      2690.0787
+    ],
+    "after_mils": [
+      2860,
+      3565.0787
+    ],
+    "delta_y_mm": 22.225
+  },
+  "board_top_mils": 4813.0625,
+  "antenna_keepout_mils": {
+    "left": 2500,
+    "right": 3200,
+    "bottom": 4845,
+    "top": 5195
+  },
+  "antenna_to_board_edge_mm": 0.8112125,
+  "other_moved_components": [
+    "J12",
+    "C4",
+    "J7",
+    "S1"
+  ],
+  "drc": {
+    "confirmed": true,
+    "counts": {
+      "warnings": 0,
+      "rule_violations": 0
+    },
+    "violations": [],
+    "reported_rules": [
+      {
+        "rule": "Clearance Constraint (Gap=0.254mm) (All),(All)",
+        "violations": 0
+      },
+      {
+        "rule": "Short-Circuit Constraint (Allowed=No) (All),(All)",
+        "violations": 0
+      },
+      {
+        "rule": "Un-Routed Net Constraint ( (All) )",
+        "violations": 0
+      },
+      {
+        "rule": "Modified Polygon (Allow modified: No), (Allow shelved: No)",
+        "violations": 0
+      },
+      {
+        "rule": "Width Constraint (Min=0.254mm) (Max=0.254mm) (Preferred=0.254mm) (All)",
+        "violations": 0
+      },
+      {
+        "rule": "Width Constraint (Min=0.508mm) (Max=1.524mm) (Preferred=1.016mm) (InNet('3V3'))",
+        "violations": 0
+      },
+      {
+        "rule": "Width Constraint (Min=0.508mm) (Max=1.524mm) (Preferred=1.016mm) (InNet('MAIN5V') Or InNet('NetF1_1') Or InNet('NetF1_2') Or InNet('DEVKIT5V'))",
+        "violations": 0
+      },
+      {
+        "rule": "Width Constraint (Min=0.508mm) (Max=1.524mm) (Preferred=1.016mm) (InNet('GND'))",
+        "violations": 0
+      },
+      {
+        "rule": "Power Plane Connect Rule(Relief Connect )(Expansion=0.508mm) (Conductor Width=0.254mm) (Air Gap=0.254mm) (Entries=4) (All)",
+        "violations": 0
+      },
+      {
+        "rule": "Hole Size Constraint (Min=0.3mm) (Max=3.175mm) (All)",
+        "violations": 0
+      },
+      {
+        "rule": "Hole To Hole Clearance (Gap=0.254mm) (All),(All)",
+        "violations": 0
+      },
+      {
+        "rule": "Minimum Solder Mask Sliver (Gap=0.254mm) (All),(All)",
+        "violations": 0
+      },
+      {
+        "rule": "Silk To Solder Mask (Clearance=0.254mm) (IsPad),(All)",
+        "violations": 0
+      },
+      {
+        "rule": "Silk to Silk (Clearance=0.254mm) (All),(All)",
+        "violations": 0
+      },
+      {
+        "rule": "Net Antennae (Tolerance=0mm) (All)",
+        "violations": 0
+      },
+      {
+        "rule": "Height Constraint (Min=0mm) (Max=25.4mm) (Prefered=12.7mm) (All)",
+        "violations": 0
+      }
+    ]
+  },
+  "unrouted_connections": 0,
+  "pads_edge_audit": {
+    "clearance_mm": 0.254,
+    "violations": 0
+  },
+  "note": "Antenna location follows the existing DevKit footprint/antenna marking confirmed by the owner. RF range and enclosure clearance require real-product validation.",
+  "source": "https://docs.espressif.com/projects/esp-hardware-design-guidelines/en/latest/esp32s3/pcb-layout-design.html"
+}
